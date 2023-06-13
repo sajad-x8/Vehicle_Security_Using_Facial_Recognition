@@ -3,10 +3,10 @@ import telegram
 from telegram.ext import Updater, CommandHandler
 import asyncio
 # Telegram bot token
-TOKEN = '5980407331:AAGGSEclyd0RxLCX_opDhyDIU4VuyYqNGC4'
+TOKEN = 'PROVIDE_YOUR_TELEGRAM_BOT_TOKEN_HERE'
 
 # Chat ID of the user to notify
-USER_CHAT_ID = '790629803'
+USER_CHAT_ID = 'PROVIDE_YOUR_CHAT_ID_HERE'
 
 # Create a Telegram bot instance
 bot = telegram.Bot(token=TOKEN)
